@@ -218,8 +218,7 @@ A `IsDefault` property can be used to select the detent that will be shown when 
 <the49:BottomSheet xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:the49="https://schemas.the49.com/dotnet/2023/maui"
-             x:Class="MyApp.SheetPage"
-             Title="SheetPage">
+             x:Class="MyApp.SheetPage">
     <the49:BottomSheet.Detents>
         <OnPlatform>
             <On Platform="Android">
